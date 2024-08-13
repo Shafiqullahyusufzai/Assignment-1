@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #cc7832;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre>
+<span class="s1">from </span><span class="s0">tkinter </span><span class="s1">import </span><span class="s0">*</span>
+<span class="s0">root = Tk()</span>
+<span class="s0">e = Entry(root</span><span class="s1">,</span><span class="s0">width=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">fg=</span><span class="s3">&quot;black&quot;</span><span class="s0">)</span>
+<span class="s0">e.pack()</span>
+<span class="s0">e.insert(</span><span class="s2">0</span><span class="s1">,</span><span class="s3">&quot;2nd semester's H_Ws &quot;</span><span class="s0">)</span>
+<span class="s1">def </span><span class="s0">myclick():</span>
+    <span class="s0">myLabel1 = Label(root</span><span class="s1">,</span><span class="s0">text = </span><span class="s3">&quot;1:practice  all the python functions &quot;</span><span class="s0">)</span>
+    <span class="s0">myLabel1.pack()</span>
+<span class="s1">def </span><span class="s0">myclick2():</span>
+    <span class="s0">myLabel2 = Label(root</span><span class="s1">,</span><span class="s0">text = </span><span class="s3">&quot;2:write a program to calculate the factorial&quot;</span><span class="s0">)</span>
+    <span class="s0">myLabel2.pack()</span>
+<span class="s1">def </span><span class="s0">myclick3():</span>
+    <span class="s0">myLabel3 = Label(root</span><span class="s1">,</span><span class="s0">text = </span><span class="s3">&quot;3:write a program to calculate the Fibonacci sequence&quot;</span><span class="s0">)</span>
+    <span class="s0">myLabel3.pack()</span>
+<span class="s1">def </span><span class="s0">myclick4():</span>
+    <span class="s0">myLabel4 = Label(root</span><span class="s1">,</span><span class="s0">text = </span><span class="s3">&quot;4:write a graphic program that shows your homeworks's lists&quot;</span><span class="s0">)</span>
+    <span class="s0">myLabel4.pack()</span>
+
+
+
+<span class="s0">myButton1 = Button(root</span><span class="s1">, </span><span class="s0">text = </span><span class="s3">&quot;first H_W&quot;</span><span class="s1">, </span><span class="s0">command = myclick</span><span class="s1">, </span><span class="s0">fg = </span><span class="s3">&quot;black&quot;</span><span class="s1">,</span><span class="s0">padx=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">pady=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">bg=</span><span class="s3">&quot;green&quot;</span><span class="s0">)</span>
+<span class="s0">myButton1.pack()</span>
+<span class="s0">myButton2 = Button(root</span><span class="s1">, </span><span class="s0">text = </span><span class="s3">&quot;2nd H_W&quot;</span><span class="s1">, </span><span class="s0">command = myclick2</span><span class="s1">, </span><span class="s0">fg = </span><span class="s3">&quot;red&quot;</span><span class="s1">,</span><span class="s0">padx=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">pady=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">bg=</span><span class="s3">&quot;black&quot;</span><span class="s0">)</span>
+<span class="s0">myButton2.pack()</span>
+<span class="s0">myButton3 = Button(root</span><span class="s1">, </span><span class="s0">text = </span><span class="s3">&quot;3rd H_W&quot;</span><span class="s1">, </span><span class="s0">command = myclick3</span><span class="s1">, </span><span class="s0">fg = </span><span class="s3">&quot;green&quot;</span><span class="s1">,</span><span class="s0">padx=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">pady=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">bg=</span><span class="s3">&quot;yellow&quot;</span><span class="s0">)</span>
+<span class="s0">myButton3.pack()</span>
+<span class="s0">myButton4 = Button(root</span><span class="s1">, </span><span class="s0">text = </span><span class="s3">&quot;4th H_W&quot;</span><span class="s1">, </span><span class="s0">command = myclick4</span><span class="s1">, </span><span class="s0">fg = </span><span class="s3">&quot;purple&quot;</span><span class="s1">,</span><span class="s0">padx=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">pady=</span><span class="s2">20</span><span class="s1">,</span><span class="s0">bg=</span><span class="s3">&quot;silver&quot;</span><span class="s0">)</span>
+<span class="s0">myButton4.pack()</span>
+
+<span class="s0">mainloop()</span>
+
+
+
+</pre>
+</body>
+</html>
